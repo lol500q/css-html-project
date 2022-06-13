@@ -84,6 +84,11 @@ p{
     padding:15px;
     
 }
+@media screen and (max-width:768px) {
+    .both{
+        flex-direction:column;
+    }
+}
 .digital-clock{
     
     border: 1px white solid;
